@@ -12,7 +12,7 @@ if !hasmapto('<Plug>SpotifyNext', 'n') || maparg('<Leader>sn', 'n') ==# ''
   nmap <Leader>sn <Plug>SpotifyNext
 endif
 if !hasmapto('<Plug>SpotifyPrev', 'n') || maparg('<Leader>sp', 'n') ==# ''
-  nmap <Leader>spp <Plug>SpotifyPrev
+  nmap <Leader>sp <Plug>SpotifyPrev
 endif
 if !hasmapto('<Plug>SpotifyPlayPause', 'n') || maparg('<Leader>s<Space>', 'n') ==# ''
   nmap <Leader>s<Space> <Plug>SpotifyPlayPause
