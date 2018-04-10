@@ -5,10 +5,12 @@
 #
 # Distributed under terms of the MIT license.
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 while getopts ":c:" opt; do
   case $opt in
     c)
-      osascript ../applescripts/spotify-$OPTARG.scpt
+      osascript $DIR/spotify-$OPTARG.scpt
       ;;
     \?)
       echo "Invalid option"
